@@ -39,8 +39,9 @@ class Kindergarden {
         for (let i = 0; i < this.names.length; i++) {
             const name = this.names[i];
             names += name.name;
-            console.log(names);
+            // console.log(names);
         }
+
         console.log(`"${this.kindergardenName}" is visited by:${names}`);
     }
 
